@@ -5,7 +5,7 @@ Status: Proposed
 
 ## Context
 Currently, `actions/setup-node` supports caching dependencies for Npm and Yarn package managers.  
-For the first iteration, we have decided to not support cases where `package-lock.json` / `yarn.lock` are located outside of repository root.  
+For the first iteration, we have decided to    not support cases where `package-lock.json` / `yarn.lock` are located outside of repository root.  
 Current implementation searches the following file patterns in the repository root: `package-lock.json`, `yarn.lock` (in order of resolving priorities)
 
 Obviously, it made build-in caching unusable for mono-repos and repos with complex structure.  
