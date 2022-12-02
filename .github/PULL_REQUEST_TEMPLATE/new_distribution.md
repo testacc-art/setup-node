@@ -1,3 +1,12 @@
+---
+name: Add new Java distribution
+about: Adding support for new Java distribution
+title: ''
+labels: ''
+assignees: ''
+
+---
+
 **Description:**
 A clear and concise description about new distribution.
 
